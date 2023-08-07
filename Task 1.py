@@ -1,3 +1,4 @@
+# plot Keplers Third Law (T/yr against (a / AU)^(3/2))
 import matplotlib.pyplot as plt
 import numpy as np
 

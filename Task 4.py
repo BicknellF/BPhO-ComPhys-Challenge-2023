@@ -26,7 +26,6 @@ elif option == "Outer":
     planets = outer_planets
 
 time_interval = 1/1000
-
 #fig, ax = plt.subplots()
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
@@ -93,5 +92,6 @@ ax.set_zlabel("Z /AU")
 ax.set_title("Inner Solar System")
 ax.grid(True)
 ax.legend(loc="upper right")
+ax.view_init(30, 225)
 
 plt.show()
